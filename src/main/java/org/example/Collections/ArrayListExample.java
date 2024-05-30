@@ -1,4 +1,19 @@
 package org.example.Collections;
+/*
+
+ArrayList Operations:
+
+Create an ArrayList of integers and perform the following operations:
+Add elements to the list.
+Remove an element from the list.
+Find the index of a specific element.
+Iterate through the list and print each element.
+
+ */
+
+
+
+
 
 import java.util.ArrayList;
 
