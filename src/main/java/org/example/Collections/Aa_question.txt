@@ -1,0 +1,141 @@
+ArrayList Operations:
+
+Create an ArrayList of integers and perform the following operations:
+Add elements to the list.
+Remove an element from the list.
+Find the index of a specific element.
+Iterate through the list and print each element.
+
+
+LinkedList Usage:
+
+Create a LinkedList of strings.
+Add elements at the beginning and end of the list.
+Remove the first and last elements.
+Iterate through the list using both an iterator and a for-each loop.
+
+
+
+HashSet Basics:
+
+Create a HashSet of strings.
+Add elements to the set.
+Check if a specific element is in the set.
+Remove an element from the set.
+Iterate through the set and print each element.
+
+
+
+
+TreeSet for Sorting:
+
+Create a TreeSet of integers.
+Add elements to the set.
+Demonstrate that the set stores elements in ascending order.
+Retrieve and remove the first and last elements.
+Advanced Collections Operations
+
+
+
+
+
+HashMap Operations:
+
+Create a HashMap to store student names (keys) and their corresponding grades (values).
+Add some entries to the map.
+Retrieve a grade for a specific student.
+Remove a student's entry from the map.
+Iterate through the map and print each key-value pair.
+
+
+
+
+
+
+TreeMap for Sorting:
+
+Create a TreeMap to store product names (keys) and their prices (values).
+Add some entries to the map.
+Demonstrate that the map stores entries in ascending order of keys.
+Retrieve the first and last entries in the map.
+
+
+
+
+
+
+
+
+PriorityQueue Usage:
+
+Create a PriorityQueue of integers.
+Add elements to the queue.
+Demonstrate that the queue retrieves elements in natural ordering (ascending order).
+Remove elements from the queue and print them.
+
+
+
+
+
+
+
+Deque Operations:
+
+Create a Deque (using ArrayDeque) of strings.
+Add elements at the beginning and end of the deque.
+Remove elements from both ends.
+Iterate through the deque and print each element.
+Real-World Scenarios
+
+
+
+
+
+Employee Management System:
+
+Create a List of Employee objects, where Employee is a class with fields id, name, and salary.
+Add employees to the list.
+Sort the list by employee name.
+Find an employee with a specific ID.
+Calculate the average salary of all employees.
+
+
+
+
+
+
+
+
+Product Catalog:
+
+Create a Map where the key is a product category (string) and the value is a List of product names (strings).
+Add products to various categories.
+Retrieve and print all products in a specific category.
+Remove a product from a category.
+Iterate through the map and print all categories with their products.
+Generic Collections
+
+
+
+
+
+
+
+Generic Stack Implementation:
+
+Implement a generic Stack class using an ArrayList.
+Implement methods push, pop, and peek.
+Demonstrate the use of this stack with different data types.
+
+
+
+
+
+
+
+Generic Pair Class:
+
+Create a generic Pair class that holds two objects of any type.
+Add methods to get and set the values of the pair.
+Create instances of Pair with different types and demonstrate their usage.
+These questions cover a wide range of operations and use cases for collections in Java, providing a good mix of fundamental and advanced topics.
