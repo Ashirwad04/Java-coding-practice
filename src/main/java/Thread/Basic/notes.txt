@@ -1,0 +1,156 @@
+           MULTI-THREADING
+
+           WHAT IS MULTI_PROGRAMMING:
+
+           ➢ Running	more	than	one	program	that	is	running	multiple	programs
+           on	a	single	machine	or	a	computer	is	known	as	multi-programming.
+
+
+           ➢ The	idea	of	multiprogramming	started	from	the	utilisation	of	the	CPU
+           when	it	is	idle	as	the	CPU	works	for	just	few	time	in	the	whole	hour.
+
+
+
+           ➢ There	are	different	form	of	multi-programming.
+
+
+           ➔ Multi-user:	more	than	one	user	using	the	machine	/	running	their
+           programs	simultaneously.
+
+
+           • for	connecting	more	than	one	user	to	single	computer	the
+                     DUMMY	TERMINALS	were	used.
+           • here	the	ROUND	ROBIN	fashion	was	introduced	as	the
+                     programs	were	executed	simultaneously.
+           • UNIX	and	LINUX	are	famous	operating	systems	for	the	multiuser	environment.
+
+           • Multi-user	machines	were	known	as	TIME_SHARING
+                 machines.
+
+
+           ➔ Multi-Tasking:	single	user	runs	multiple	tasks	simultaneously.
+
+
+           • here	the	CPU	runs	the	programs	alternatively	on	high	rate.
+
+           • WINDOWS	and	MacOS(OS	X)	operating	system	supports
+                    this	type	of	environment.
+           ➔ MULTI_THREADING:	it	is	a	type	of	multi-threading	where	there	are
+                    different	tasks	going	on	under	a	single	application.
+           • threads	are	light	weighted	compared	to	the	task.
+
+
+           • CPU	runs	the	threads	alternatively	where	the	user	fells	the
+                      threads	running	all	together.
+
+           • examples:	animation,	application,	gaming,	websites,
+                  webserver
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+   - Multithreading in java is a process of executing multiple threads simultaneously.
+    -a thread is a lightweight sub-process, the smallest unit of processing.
+
+            How to create threads
+                -using runnable
+                -using thread
+                    runnable
+                    //prebuild
+                        Interface Runnable{
+                            run();
+                        }
+                        class Thread{
+                        }
+                    //
+                        class MyThread implements Runnable //or extends Thread
+                        {
+                        MyThread t= new MyThread(t);
+                        thread.start();
+                        public void run(){
+                          //task
+                        }
+                        }
+            //Exteds thread
+            class MyThread extends Thread {
+                public void run(){
+                //task
+                }
+                MyThread t= MyThread();
+                t.start();
+                }
+      life cycle of the thread
+                         active
+            new -   Runnable  - Running -   Terminated
+
+            - Thread class provides method to perform operation with threads.
+             -This thread class is present in java.lang package . So we don't need
+                     to import this package
+
+                    -Some important methods-
+                        -public string getName()- return name of the thread;
+                        -public void setName()-set the name of the thread;
+                        -public void run()-contains the task of thread;
+                        -public void start()-returns the id of thread.
+                        -setPriority(P),getPriority()- set and get the priority of the thread
+                        -sleep(),join(),interrupt(),resume(),stop()..etc;
+
+        Daemon Thread
+            -Daemon thread in java is a service provider thread that provides service
+                to the user thread.
+            -setDemon(Boolean)
+            -public Boolean isDaemon()
+            -Garbage Collector is best example of Daemon thread
+
+         Producer consumer problem
+                Synchronized,Inter-thread communications
+
+
+
+
+
+
+     */
