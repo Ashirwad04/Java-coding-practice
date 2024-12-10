@@ -103,19 +103,6 @@ package CORE_Java.LanguageFundamental;
          int x=798989898989898989898989898l; naw we will get pop
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
  */
 
 public class Part2 {
